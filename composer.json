@@ -4,7 +4,7 @@
   "keywords": ["json", "windows-1251"],
   "homepage": "https://github.com/quantum13/php-json",
   "type": "library",
-  "license": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "license": "CC BY-SA 3.0",
   "require": {
     "php": ">=5.3.0"
   },
