@@ -1,4 +1,6 @@
 <?php
+namespace PhpJson;
+
 /**
  * Encode/decode a JSON data
  *
@@ -54,7 +56,7 @@ class JSON
 	 */
 	public static function objectToArray($object)
 	{
-		if ($object instanceof Traversable)
+		if ($object instanceof \Traversable)
 		{
 			$vars = array();
 			foreach ($object as $k => $v) $vars[$k] = $v;
